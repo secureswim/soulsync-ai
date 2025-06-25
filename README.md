@@ -5,15 +5,6 @@ This project focuses on the abstractive summarization of mental health journal e
 
 General-purpose summarizers like Pegasus, BART, and T5 often produce verbose, inaccurate, or emotionally tone-deaf results when applied to such sensitive content. This work addresses those limitations through custom dataset creation, semantic quality filtering, and task-specific fine-tuning.
 
-## Work in Progress
-This repository is actively under development. In addition to the summarization pipeline, current work is focused on:
-
-- Implementing sentiment analysis (using DistilBERT or VADER)
-- Developing a Flask-based journaling web app interface
-- Connecting frontend and backend for journaling, mood scoring, and visualization
-
-The project aims to evolve into a complete mental health journaling assistant.
-
 ## Motivation
 Experiments with off-the-shelf models showed the following:
 - Pegasus, trained on news data, frequently hallucinated or fabricated information.
