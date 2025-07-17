@@ -36,13 +36,6 @@ BERT/BART embeddings are stronger but memory-intensive. MiniLM is fast and light
 ## Project Pipeline
 Reddit Posts → Data Cleaning → Pegasus Summarization → Cosine Similarity Filtering → BART Fine-Tuning
 
-## Example Output
-**Input:**  
-"I've noticed that a lot of the time when I'm depressed, I get suicidal thoughts... I love my dog and my parents and wouldn't want to hurt them... I just wish it would all stop."
-
-**Summary (BART):**  
-"The user experiences suicidal thoughts during depression but refrains due to love for their family and dog."
-
 ## Limitations
 - Dataset size (~76 samples) limits generalization.
 - Fine-tuned model produces shallow summaries; room for deeper context understanding.
